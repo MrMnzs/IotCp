@@ -18,8 +18,8 @@ Explique de forma clara qual o objeto deste projeto, para que serve e comente as
 
 Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
 
-<img src="/imagem.jpg" width="550">
-
+<img src="/Picture1.png" width="550">
+<img src="/dash.png" width="550">
 
 ## Como usar 
 
