@@ -1,22 +1,17 @@
-# Template para desenvolvimento e entrega de NAC
-
-Esse é um guia simples, o grupo pode e deve modificar o template conforme necessidade. 
-
 # Nome do projeto
 
-**nome dos alunos:** 
+**nome dos alunos: André dos Santos Menezes de Souza** 
 
-**Turma:**
+**Turma:2TDSA**
 
-**Ano:**
+**Ano:2022**
 
 ## Objetivo / descrição do Projeto
 
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
+Este é um projeto acadêmico de desenvolvimento  de um sistema de captura de dados com o uso de uma Tag RFID 
+e para isso foi utilizado o arduino integrado com o node-red.
 
-## Diagrama do projeto
-
-Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
+## Diagrama do projeto 
 
 <img src="/Picture1.png" width="550">
 <img src="/dash.png" width="550">
@@ -25,29 +20,21 @@ Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do ci
 
 Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
 
-* Pode ser utilizado marcadores
-* Para ajudar na formatação
+Para o desenvolvimento desse projeto foi utilizado simulIDE, node-red
+com algumas bibliotecas de utilização do node-red
+node-red-contrib-telegrambot,
+node-red-dashboard,
+node-red-node-serialport
 
 Ou qualquer outra tabulação:
 
 - [x] Youtube
 - [ ] Facebook 
-- [x] Instagram
-
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
-
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
-    ls
-
+- [ ] Instagram
 
 ## Link de vídeo demonstração
 
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
-
+[Link para o video youtube](https://youtu.be/lI65j7xptx8)
 
 ### Referências 
 
