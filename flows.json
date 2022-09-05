@@ -1,0 +1,551 @@
+[
+    {
+        "id": "8f07e896d726946d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "43dfc33a30812162",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0759ebe0e25afcad",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a7a3c3aa428dfcd6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f21f2cabae92358e",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "d5f9149aedd8550a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "554379f19498963e",
+        "type": "telegram bot",
+        "botname": "ArduinoAndremnzsBot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "d5f9149aedd8550a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2481e14a443cbc35",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "52127ff8cdee423a",
+        "type": "serial-port",
+        "serialport": "COM3",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "196ba180f7946abd",
+        "type": "mqtt out",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "topic": "TesteAndreMNZS/arduino",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a7a3c3aa428dfcd6",
+        "x": 450,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c5de219a61073b1b",
+        "type": "mqtt in",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "topic": "TesteAndreMNZS/arduino",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a7a3c3aa428dfcd6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "c194144217555ec0"
+            ]
+        ]
+    },
+    {
+        "id": "a5388fd1b9287c01",
+        "type": "ui_text",
+        "z": "0759ebe0e25afcad",
+        "group": "f21f2cabae92358e",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "RFID",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c194144217555ec0",
+        "type": "change",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.usuario",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 40,
+        "wires": [
+            [
+                "a5388fd1b9287c01",
+                "412dfa26948e576f",
+                "747e9e07652b69c8"
+            ]
+        ]
+    },
+    {
+        "id": "412dfa26948e576f",
+        "type": "function",
+        "z": "0759ebe0e25afcad",
+        "name": "enviaParaTelegram",
+        "func": "const texto = msg.payload\nmsg.payload = {};\nmsg.payload.chatId = 1032824302\nmsg.payload.type = 'message'\nmsg.payload.content = 'o usuario ' + texto + ' entrou'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 140,
+        "wires": [
+            [
+                "63531fb54a7a3ea6",
+                "7f5c9eb3401e849a"
+            ]
+        ]
+    },
+    {
+        "id": "7f5c9eb3401e849a",
+        "type": "telegram sender",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "bot": "554379f19498963e",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1110,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63531fb54a7a3ea6",
+        "type": "debug",
+        "z": "0759ebe0e25afcad",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "747e9e07652b69c8",
+        "type": "debug",
+        "z": "0759ebe0e25afcad",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "8b33c3043476f8ac",
+        "type": "ui_button",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "group": "f21f2cabae92358e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "abre",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"abre\" :180}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "e72968ff2f0eeda4",
+                "f91ece083ba0305a",
+                "4ea278f88e01b4bf"
+            ]
+        ]
+    },
+    {
+        "id": "0bedb1910787c596",
+        "type": "ui_button",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "group": "f21f2cabae92358e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "fecha",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"abre\" : 0}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 460,
+        "wires": [
+            [
+                "e72968ff2f0eeda4",
+                "f91ece083ba0305a",
+                "4ea278f88e01b4bf"
+            ]
+        ]
+    },
+    {
+        "id": "e72968ff2f0eeda4",
+        "type": "debug",
+        "z": "0759ebe0e25afcad",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f91ece083ba0305a",
+        "type": "mqtt out",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "topic": "TesteAndreMNZS/arduino/botao",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a7a3c3aa428dfcd6",
+        "x": 550,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0e64743da4f62dee",
+        "type": "mqtt in",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "topic": "TesteAndreMNZS/arduino/botao",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a7a3c3aa428dfcd6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 550,
+        "y": 440,
+        "wires": [
+            [
+                "465e530f582f053e"
+            ]
+        ]
+    },
+    {
+        "id": "465e530f582f053e",
+        "type": "debug",
+        "z": "0759ebe0e25afcad",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f6a994ed76b00166",
+        "type": "debug",
+        "z": "0759ebe0e25afcad",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3a3f2d595116ee12",
+        "type": "json",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 190,
+        "y": 60,
+        "wires": [
+            [
+                "f6a994ed76b00166",
+                "196ba180f7946abd"
+            ]
+        ]
+    },
+    {
+        "id": "a09dc9993a066853",
+        "type": "serial in",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "serial": "52127ff8cdee423a",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "3a3f2d595116ee12"
+            ]
+        ]
+    },
+    {
+        "id": "4ea278f88e01b4bf",
+        "type": "serial out",
+        "z": "0759ebe0e25afcad",
+        "name": "",
+        "serial": "52127ff8cdee423a",
+        "x": 390,
+        "y": 520,
+        "wires": []
+    }
+]
